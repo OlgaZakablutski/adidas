@@ -1,3 +1,7 @@
 # adidas
-Adidas web design and doing front-end 
-<img width="1440" alt="7b77e1e3d2cc40d608a5ab3d56f3cd86" src="[https://user-images.githubusercontent.com/92529075/212302637-0456a301-60f1-4432-a7f7-a00f8cc70b9f.png](https://dribbble.com/shots/2411449-Yeezys/attachments/466973)">
+
+## Adidas web design and doing front-end 
+
+![image](https://user-images.githubusercontent.com/92260064/213686875-8bd17588-c9e8-4af3-9de2-075991baeaa4.png)
+
+
