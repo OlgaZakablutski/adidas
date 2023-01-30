@@ -18,11 +18,13 @@
 			<div class="logo">
 				<img src="/assets/Adidas_Logo.svg" alt="">
 			</div>
+		<div class="main-nav">
 			<div id="line"></div>
 			<a href=""><i class="fa fa-store"></i></a>
-			<a href="" class="active"><i class="fa fa-shoe-prints"></i></a></a>
+			<a href="" class="active"><i class="fa fa-shoe-prints"></i></a>
 			<a href=""><i class="fa fa-shirt"></i></a></a>
 			<a href=""><i class="fa fa-heart"></i></a></a>
+		</div>
 		</nav>
 
 		<div class="d-flex h-center">
@@ -37,7 +39,7 @@
 		</div>
 	</header>
 	<section class="hero wrapper">
-		<img src="/assets/sneaker.png" alt="">
+		<img class="hero-img" src="/assets/sneaker.png" alt="">
 		<h1 class="big-txt">[UNDERGROUND]</h1>
 		<div class="hero-copy">
 			<h4>29 Underground Sneaker</h4>
@@ -53,17 +55,11 @@
 		</div>
 
 	</section>
-	<section class="wrapper">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatum id officia esse ratione quo, repellat consequuntur ullam, nesciunt nostrum exercitationem quod quis, nulla dolor eius voluptatem et ad aperiam!
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate quos accusantium repellendus voluptates non quam, cumque, mollitia aut, odio et dolores commodi sapiente debitis! Nostrum sequi culpa consequatur quos.
-		Quo ab minima quis id? Ea quidem exercitationem voluptatibus quisquam consequuntur quod repellendus dolorem odit deleniti tempore. Officiis iste at et, nesciunt soluta a temporibus corporis, enim, quibusdam dolorum quae!
-		Repellat ad consequuntur odio soluta, vero aspernatur cumque. Impedit quisquam nostrum officiis consequuntur odit vero ducimus autem maiores voluptate officia, earum delectus veritatis id sunt quae sed mollitia consectetur dicta.
-		</section>
 
 	<script>
 		var elem = document.querySelector(".hero-img");
 		window.addEventListener('scroll', function() {
-		var value = window.scrollY * 0.5;
+		var value = window.scrollY * 0.25;
 		elem.style.transform = `rotate(${value}deg)`; 
 		});
   </script>
