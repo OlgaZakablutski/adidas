@@ -1,67 +1,65 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Adidas web-shop</title>
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas web-shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-	<header class="d-flex space-between h-center">
+<body>  
+    <header class="d-flex space-between h-center">
+        <nav class="d-flex h-center">
+            <div class="logo">
+                <img src="/assets/Adidas_Logo.svg" alt="">
+            </div>
+            <div class="main-nav d-flex h-center">
+                <div id="line"></div>
+                <a href="shop.html"><i class="fa fa-store"></i></a>
+                <a href="index.html" class="active"><i class="fa fa-shoe-prints"></i></a>
+                <a href=""><i class="fa fa-shirt"></i></a>
+                <a href=""><i class="fa fa-heart"></i></a>
+            </div>
+        </nav>
+        <div class="sec-nav d-flex h-center">
+            <nav>
+                <a href=""><i class="fa fa-cart-shopping"></i></a>
+                <a href=""><i class="fa fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa fa-message"></i></a>
+            </nav>
+            <a href="#" class="user-id"><img src="https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=3759e09a5b9fbe53088b23c615b6312e" alt=""></a>
+        </div>
+    </header>
+    <section class="hero wrapper">
+        <img class="hero-img" src="/assets/sneakers.png" alt="">
+        <h1 class="big-txt">underground</h1>
+        <div class="hero-copy">  
+            <h4>29 Underground Sneaker</h4> 
+            <p>Designed by Jesus itself</p>
+            <a class="btn btn-primary" href="#">Add to Cart</a>
+        </div>
+        <div class="color-picker d-flex h-center">
+            <h6>Choose your colors</h6>
+            <input type="color" name="red" value="#ff6347">
+            <input type="color" name="red" value="#477eff">
+            <input type="color" name="red" value="#cd47ff">
+            <input type="color" name="red" value="#a9a9a9">
+        </div>
+    </section>
+    <section class="wrapper">
 
-		<nav class="d-flex h-center">
-			<div class="logo">
-				<img src="/assets/Adidas_Logo.svg" alt="">
-			</div>
-		<div class="main-nav">
-			<div id="line"></div>
-			<a href=""><i class="fa fa-store"></i></a>
-			<a href="" class="active"><i class="fa fa-shoe-prints"></i></a>
-			<a href=""><i class="fa fa-shirt"></i></a></a>
-			<a href=""><i class="fa fa-heart"></i></a></a>
-		</div>
-		</nav>
+    </section>
 
-		<div class="d-flex h-center">
-			<nav>
-				<a href=""><i class="fa fa-cartshopping"></i></a>
-				<a href=""><i class="fa fa-magnifying-glass"></i></a>
-				<a href=""><i class="fa fa-message"></i></a>
-			</nav>	
-				<a href="#" class="user-id"><img src="https://images.unsplash.com/photo-
-					1674824258220-bac895ed0c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by
-					1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt=""></a>
-		</div>
-	</header>
-	<section class="hero wrapper">
-		<img class="hero-img" src="/assets/sneaker.png" alt="">
-		<h1 class="big-txt">[UNDERGROUND]</h1>
-		<div class="hero-copy">
-			<h4>29 Underground Sneaker</h4>
-			<p>Designed by Jesus itself</p>
-			<a class="btn btn-primary" href="#">Add to Cart</a>
-		</div>
-		<div class="color-picker d-flex h-center">
-			<h5>Choose your color</h5>
-			<input type="color" name="red" value="#ff347">
-			<input type="color" name="red" value="#477eff">
-			<input type="color" name="red" value="#cd47ff">
-			<input type="color" name="red" value="#a9a9a9">
-		</div>
-
-	</section>
-
-	<script>
-		var elem = document.querySelector(".hero-img");
-		window.addEventListener('scroll', function() {
-		var value = window.scrollY * 0.25;
-		elem.style.transform = `rotate(${value}deg)`; 
-		});
-  </script>
+    <script>
+        var elem = document.querySelector(".hero-img");
+        window.addEventListener('scroll', function() {
+        var value = window.scrollY * 0.25;
+        elem.style.transform = `rotate(${value}deg)`; 
+        });
+    </script>
 </body>
 </html>
